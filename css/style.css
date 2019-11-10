@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  transition: all 0.4s ease-in;
+}
+
+main {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+p::first-letter {
+  font-size: 3em;
+  float: left;
+  margin: 0 4px 2px 0;
+}
